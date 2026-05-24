@@ -1,0 +1,194 @@
+/* Signup.css */
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  color: black; /* Sets all text inside the form to black */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: black; /* Label text color */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Adds a subtle border for clarity */
+  border-radius: 4px;
+  font-size: 14px;
+  color: black; /* Input text color */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: black; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+  color: white; /* Changes text color on hover for contrast */
+}
+
+p {
+  text-align: center;
+  color: black; /* Text for additional messages */
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Home.css*/
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    min-height: 100vh; /* Ensures the container takes up the full height of the viewport */
+  
+  }
+  
+  .logout-button {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    padding: 10px 30px;
+    background:linear-gradient(rgb(230, 152, 74),white);    color: black;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: auto;  /* Adjust width based on content */
+    height: 40px ;  /* Fixed height for smaller button */
+    min-width: 50px ; 
+  }
+  
+  .logout-button:hover {
+    background-color: #e29e2a;
+  }
+  
+  .logo-container {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    align-items: center;
+  }
+  
+  .play-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background:linear-gradient(rgb(204, 186, 44),white);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;  /* Adjust width based on content */
+    height: 40px;  /* Fixed height for smaller button */
+    min-width: 150px;  /* Set a minimum width */
+    display: block;  /* Makes the button behave like a block element */
+    margin: 0 auto;  /* Centers the button horizontally */
+}
+
+.play-button:hover {
+    background-color: #cddc30;
+}
+
+.profile-icon-container {
+  position: fixed;
+  top: 18px;
+  right: 150px;
+  padding: 10px 30px;
+  color: black;
+  border: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: auto;  /* Adjust width based on content */
+  height: 40px ;  /* Fixed height for smaller button */
+  min-width: 50px ; 
+}
+
+.profile-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.back-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background:linear-gradient(rgb(204, 186, 44),white);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto;  /* Adjust width based on content */
+  height: 40px;  /* Fixed height for smaller button */
+  min-width: 150px;  /* Set a minimum width */
+  display: block;  /* Makes the button behave like a block element */
+  margin: 0 auto;  /* Centers the button horizontally */
+}
+
+.back-button:hover {
+  background-color: #cddc30;
+}
+
+.leaderboard-button{
+  font-size: 20px;
+  padding: 10px 20px;
+  background:linear-gradient(rgb(204, 186, 44),white);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto;  /* Adjust width based on content */
+  height: 40px;  /* Fixed height for smaller button */
+  min-width: 150px;  /* Set a minimum width */
+  display: block;  /* Makes the button behave like a block element */
+  margin: 0 auto;  /* Centers the button horizontally */
+}
+
+.leaderboard-button:hover {
+  background-color: #cddc30;
+}
